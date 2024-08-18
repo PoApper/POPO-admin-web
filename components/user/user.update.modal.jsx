@@ -61,6 +61,12 @@ const UserUpdateModal = ({ user, trigger }) => {
       <Modal.Content>
         <Form>
           <Form.Input
+            label={'UUID'}
+            value={user.uuid}
+            onChange={(e) => e.preventDefault()}
+            onKeyDown={(e) => e.preventDefault()}
+          />
+          <Form.Input
             required
             label={'email'}
             value={email}

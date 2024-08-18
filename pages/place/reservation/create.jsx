@@ -38,7 +38,6 @@ const PlaceReservationCreatePage = ({ placeList }) => {
 
   const [placeInfo, setPlaceInfo] = useState(null);
   const [userInfo, setUserInfo] = useState(null);
-  console.log(placeInfo);
 
   const [phone, setPhone] = useState('');
   const [title, setTitle] = useState('');
